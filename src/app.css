@@ -1,0 +1,18 @@
+.component {
+  max-width: 39.75rem;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  box-shadow: 0 15px 30px rgba(0, 81, 171, 0.15);
+  overflow: hidden;
+}
+
+@media (max-width: 48em) {
+  .component {
+    max-width: 24rem;
+    margin: var(--space-6);
+  }
+
+  .row--bottom {
+    flex-direction: column;
+  }
+}

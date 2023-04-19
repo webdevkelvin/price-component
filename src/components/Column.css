@@ -1,0 +1,12 @@
+.col {
+  flex: 1;
+  padding: var(--space-6);
+}
+
+.col--left {
+  background-color: var(--color-primary);
+}
+
+.col--right {
+  background-color: var(--color-primary-transparent);
+}

@@ -1,0 +1,7 @@
+.items {
+  list-style-type: none;
+  font-size: var(--text-size-1);
+  line-height: 1.4;
+  letter-spacing: -0.17;
+  color: rgba(255, 255, 255, 0.75);
+}
