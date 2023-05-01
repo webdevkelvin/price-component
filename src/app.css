@@ -1,6 +1,6 @@
 .component {
-  max-width: 39.75rem;
   background-color: var(--color-white);
+  max-width: 39.75rem;
   border-radius: 8px;
   box-shadow: 0 15px 30px rgba(0, 81, 171, 0.15);
   overflow: hidden;

@@ -1,17 +1,20 @@
 import "./ItemList.css";
 
+const data = [
+  "Tutorials by industry experts",
+  "Peer & expert code review",
+  "Coding exercises",
+  "Access to our GitHub repos",
+  "Community forum",
+  "Flashcard decks",
+  "New videos every week",
+];
+
 function ItemList() {
-  return (
-    <ul className="items">
-      <li>Tutorials by industry experts</li>
-      <li>Peer & expert code review</li>
-      <li>Coding exercises</li>
-      <li>Access to our GitHub repos</li>
-      <li>Community forum</li>
-      <li>Flashcard decks</li>
-      <li>New videos every week</li>
-    </ul>
-  );
+  const renderedItems = data.map((item, index) => {
+    return <li key={index}>{item}</li>;
+  });
+  return <ul className="items">{renderedItems}</ul>;
 }
 
 export default ItemList;

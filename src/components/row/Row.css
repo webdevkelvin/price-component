@@ -1,3 +1,7 @@
+.row--top {
+  padding: var(--space-6);
+}
+
 .row--bottom {
   display: flex;
   color: #fff;

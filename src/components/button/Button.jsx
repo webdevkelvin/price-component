@@ -1,9 +1,9 @@
 import "./Button.css";
 
-function Button() {
+function Button(props) {
   return (
     <a href="#" className="btn">
-      Sign Up
+      {props.text}
     </a>
   );
 }

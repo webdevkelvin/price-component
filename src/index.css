@@ -18,6 +18,7 @@
   --color-primary-transparent: rgba(42, 179, 177, 0.85);
   --color-secondary: #c0df33;
   --color-white: #fff;
+  --color-white-transparent: rgba(255, 255, 255, 0.75);
   --color-light-gray: #e6eff5;
 
   font-synthesis: none;
@@ -58,6 +59,10 @@ body {
 
 .heading--3 {
   font-size: var(--text-size-3);
+}
+
+.text--gray {
+  color: #9aa7be;
 }
 
 .mb--1 {
