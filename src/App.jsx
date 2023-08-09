@@ -1,7 +1,7 @@
 import Row from "./components/row/Row";
 import Column from "./components/column/Column";
 import Price from "./components/price/Price";
-import ItemList from "./components/ItemList";
+import ItemList from "./components/item_list/ItemList";
 import Button from "./components/button/Button";
 
 import "./app.css";
